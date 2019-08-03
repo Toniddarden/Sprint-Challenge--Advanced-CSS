@@ -317,6 +317,11 @@ footer {
 .home .walk-text {
   width: 50%;
 }
+@media (max-width: 500px) {
+  .home .walk-text {
+    width: 100%;
+  }
+}
 .home .walk-text h3 {
   margin-bottom: 10px;
 }
