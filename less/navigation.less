@@ -1,1 +1,59 @@
 // Navigation code here
+
+
+.navigation {
+  background-color: rgb(245, 245, 245);
+  padding-bottom: 1rem;
+
+  @media @mobile {
+        margin: 0rem;
+        padding: 0rem;
+  }
+
+  .space-walkers {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    margin-left: 25rem;
+    padding: 2rem;
+
+    @media @mobile {
+        margin: 0rem;
+        padding: 1rem;
+  }
+
+    h1 {
+      font-size: 4rem;
+      padding-left: 17rem;
+
+      @media @mobile {
+        padding-left: 10rem;
+  }
+    }
+
+    .nav-tabs {
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 1rem;
+
+      @media @mobile {
+        justify-content: center;
+  }
+
+      a {
+        padding-top: 2rem;
+        padding-left: 6rem;
+
+        @media @mobile {
+            padding: 1rem;
+            padding-left: 2rem;
+      }
+
+        p {
+            color: @ebony-clay;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
