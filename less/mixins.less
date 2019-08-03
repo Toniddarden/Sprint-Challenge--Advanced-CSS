@@ -1,16 +1,50 @@
 // Mixins Here
 
-.btn {
-  
-    background-color: @btn-bg-color;
-    color: @border-real;
-    font-size: 2rem;
-    padding: 0.5rem 3rem 0.5rem 3rem;
-    border-radius: 10px;
+// .btn(@width; @style; @color) {
+//     back @width @style @color;
+//  background-color: @btn-bg-color;
+//   color: @border-real;
+//   font-size: 2rem;
+//   padding: 0.5rem 3rem 0.5rem 3rem;
+//   border-radius: 10px;
+//  }
+ 
+// I tried to  create the parametric for thu buttons but ran out of time 
+ 
 
-    @media @mobile {
-        width: 100%;
-    }
-  
+
+
+
+
+
+
+
+
+.btn {
+  background-color: @btn-bg-color;
+  color: @border-real;
+  font-size: 2rem;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: @border-real;
+    color: @btn-bg-color;
+  }
+
+  @media @mobile {
+    width: 100%;
+  }
 }
 
+.first-photo {
+  img {
+    padding-left: 25rem;
+
+    @media @mobile {
+      width: 100%;
+      padding-right: 2rem;
+      padding-left: 2rem;
+    }
+  }
+}

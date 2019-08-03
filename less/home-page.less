@@ -1,19 +1,4 @@
-// Home Content
 
-.first-photo {
- 
-
-  img {
-  padding-left: 25rem;
-
-    @media @mobile {
-      width: 100%;
-      padding-right: 2rem;
-      padding-left: 2rem;
-      
-    }
-  }
-}
 
 .home {
   .intro {
@@ -29,7 +14,7 @@
   }
 
   .space-images {
-    display: flex;
+    .flex();
     flex-wrap: wrap;
     width: 100%;
     padding-left: 5rem;
@@ -52,7 +37,7 @@
       height: 100%;
 
       @media @mobile {
-        display: none;
+        .none();
       }
     }
 
@@ -63,7 +48,7 @@
       height: 100%;
 
       @media @mobile {
-        display: none;
+        .none();
       }
     }
   }
@@ -89,7 +74,7 @@
     justify-content: center;
 
     @media @mobile {
-      display: flex;
+      .flex();
       flex-direction: column-reverse;
     }
   }

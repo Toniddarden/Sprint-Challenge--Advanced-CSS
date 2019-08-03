@@ -5,9 +5,23 @@
   padding: 0.5rem 3rem 0.5rem 3rem;
   border-radius: 10px;
 }
+.btn:hover {
+  background-color: #dee2e6;
+  color: #22283A;
+}
 @media (max-width: 500px) {
   .btn {
     width: 100%;
+  }
+}
+.first-photo img {
+  padding-left: 25rem;
+}
+@media (max-width: 500px) {
+  .first-photo img {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -237,16 +251,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.first-photo img {
-  padding-left: 25rem;
-}
-@media (max-width: 500px) {
-  .first-photo img {
-    width: 100%;
-    padding-right: 2rem;
-    padding-left: 2rem;
-  }
 }
 .home .intro h2 {
   padding: 15px;
