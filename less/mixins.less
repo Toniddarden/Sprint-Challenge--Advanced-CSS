@@ -1,6 +1,6 @@
 // Mixins Here
 
-.btn(@width: 100%) {
+.btn(@width: 100%, @height: auto) {
   &:hover {
     background-color: @border-real;
     color: @btn-bg-color;
@@ -14,6 +14,7 @@
 
   @media @mobile {
     @width;
+    @height;
   }
 }
 
