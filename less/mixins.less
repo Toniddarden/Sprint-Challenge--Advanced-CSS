@@ -1,12 +1,16 @@
 // Mixins Here
 
-.btn-sm {
-  button {
+.btn {
+  
     background-color: @btn-bg-color;
     color: @border-real;
     font-size: 2rem;
     padding: 0.5rem 3rem 0.5rem 3rem;
     border-radius: 10px;
-  }
+
+    @media @mobile {
+        width: 100%;
+    }
+  
 }
 
